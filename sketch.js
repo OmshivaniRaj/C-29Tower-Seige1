@@ -70,23 +70,23 @@ function draw() {
   background(56,44,44); 
  
   imageMode(CENTER);
-  // write image() to display the polygon image 
-  //use the same x and y position as ball
+  
   image(rock_img, ball.position.x, ball.position.y, 42,42);
 
 
-  stroke(0,0,0);
-  fill("white");
+  stroke("blue");
+  strokeWeight(4);
   textSize(20);
-  fill("lightyellow");
-  text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",100,30);
+  textFont("Cursive");
+  fill("red");
+  text("Drag❣❣ the Hexagonal Stone⚽ and Release it, to launch it towards the blocks",100,30);
 
   ground.display();
   stand1.display();
   stand2.display();
 
-  strokeWeight(2);
-  stroke(0,0,0);
+  strokeWeight(3);
+  stroke("black");
   
   fill("skyblue");
   block1.display();
